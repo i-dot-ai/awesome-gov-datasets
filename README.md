@@ -34,10 +34,10 @@ _The content below this line is automatically generated. Do not edit manually._
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
 ## Table of Contents
 
+- [Administration](#administration)
 - [Business](#business)
-- [Documents](#documents)
 - [Education](#education)
-- [Legislation](#legislation)
+- [Law](#law)
 - [Parliament](#parliament)
 - [Planning](#planning)
 
@@ -49,6 +49,19 @@ __Key__:
 - 🏢 External Dataset
 
 
+## Administration
+
+- __[GOV.UK Content](https://www.gov.uk/government/publications)__ [[Metadata]](datasets/Administration/govuk.yaml):
+        🌐 🏛️:
+        Official content from the GOV.UK website, including guidance and policy documents.
+        
+  - _Subtopics_: `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
+        - __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Administration/procurement.yaml):
+        🌐 🏛️:
+        Data on government procurement activities, including tenders and contracts.
+        
+  - _Subtopics_: `Public Procurement`, `Tenders`, `Contracts`
+        
 ## Business
 
 - __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ [[Metadata]](datasets/Business/companies-house.yaml):
@@ -56,19 +69,6 @@ __Key__:
         Registry information on UK companies, including formation, directors, and financials.
         
   - _Subtopics_: `Company Registration`, `Corporate Governance`, `Financial Reporting`
-        
-## Documents
-
-- __[GOV.UK Content](https://www.gov.uk/government/publications)__ [[Metadata]](datasets/Documents/govuk.yaml):
-        🌐 🏛️:
-        Official content from the GOV.UK website, including guidance and policy documents.
-        
-  - _Subtopics_: `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
-        - __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Documents/procurement.yaml):
-        🌐 🏛️:
-        Data on government procurement activities, including tenders and contracts.
-        
-  - _Subtopics_: `Public Procurement`, `Tenders`, `Contracts`
         
 ## Education
 
@@ -78,14 +78,14 @@ __Key__:
         
   - _Subtopics_: `Curriculum`, `Teaching Resources`, `Online Learning`
         
-## Legislation
+## Law
 
-- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ [[Metadata]](datasets/Legislation/caselaw.yaml):
+- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ [[Metadata]](datasets/Law/caselaw.yaml):
         🌐 🏛️:
         Judicial decisions from UK courts, including summaries and full-text opinions.
         
   - _Subtopics_: `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
-        - __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Legislation/legislation.yaml):
+        - __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Law/legislation.yaml):
         🌐 🏛️:
         Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
         
