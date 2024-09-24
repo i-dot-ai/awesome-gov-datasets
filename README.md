@@ -32,4 +32,14 @@ _The content below this line is automatically generated. Do not edit manually._
 ---
 
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
+## Table of Contents
+
+- [Parliament](#parliament)
+
+
+## Parliament
+
+- [UK Parliamentary Hansard](https://hansard.parliament.uk/) [[Metadata]](datasets/Parliament/hansard.yaml):
+Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords.
+
 <!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->
