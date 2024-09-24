@@ -83,6 +83,7 @@ def main():
         new_content += f"\n## {topic}\n\n"
         for dataset, file_path in sorted(datasets, key=lambda x: x[0]['name']):
             new_content += generate_dataset_entry(dataset, file_path)
+            new_content += "\n"
 
     # Update README with new content
     updated_content = re.sub(
