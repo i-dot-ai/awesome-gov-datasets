@@ -39,7 +39,10 @@ _The content below this line is automatically generated. Do not edit manually._
 
 ## Parliament
 
-- [UK Parliamentary Hansard](https://hansard.parliament.uk/) [[Metadata]](datasets/Parliament/hansard.yaml):
-Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords.
-
+- __[UK Parliamentary Hansard](https://hansard.parliament.uk/)__ [[Metadata]](datasets/Parliament/hansard.yaml):
+        🌐:
+        Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords.
+        
+  - _Subtopics_: `Parliamentary Proceedings`, `Political Debates`, `Legislation`
+        
 <!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->
