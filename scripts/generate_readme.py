@@ -17,8 +17,11 @@ def generate_toc(topics):
 
 def generate_dataset_entry(dataset, file_path):
     return (
-        f"- [{dataset['name']}]({dataset['source_url']}) [[Metadata]]({file_path}):\n"
-        f"{dataset['description']}\n"
+        f"""- __[{dataset['name']}]({dataset['source_url']})__ [[Metadata]]({file_path}):
+        {"🌐" if dataset.get("open_data") is True else "🔐"}:
+        {dataset['description']}
+        \n  - _Subtopics_: {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}
+        """
     )
 
 def main():

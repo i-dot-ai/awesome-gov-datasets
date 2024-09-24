@@ -1,6 +1,7 @@
 name: "UK Parliamentary Hansard"
 description: "Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords."
 source_url: "https://hansard.parliament.uk/"
+open_data: true
 topic: "Government"
 subtopics:
   - "Parliamentary Proceedings"

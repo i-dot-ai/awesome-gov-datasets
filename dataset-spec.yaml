@@ -7,6 +7,8 @@ properties:
   source_url:
     type: string
     format: uri
+  open_data:
+    type: boolean
   topic:
     type: string
   subtopics:
@@ -50,6 +52,7 @@ required:
   - name
   - description
   - source_url
+  - open_data
   - topic
   - format
   - last_updated
