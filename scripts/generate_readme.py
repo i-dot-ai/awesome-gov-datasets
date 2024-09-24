@@ -21,12 +21,42 @@ def generate_toc(topics):
     return toc
 
 def generate_dataset_entry(dataset, file_path):
+    # Main information
+    main_info = (
+        f"__[{dataset['name']}]({dataset['source_url']})__ "
+        f"{OPEN_EMOJI if dataset.get('open_data') is True else CLOSED_EMOJI} "
+        f"{UK_GOV_EMOJI if dataset.get('made_by_ukgov') is True else EXTERNAL_EMOJI}"
+    )
+    
+    # Description (first line only)
+    description_lines = dataset['description'].split('\n')
+    first_line_description = description_lines[0].strip()
+    
+    # Extra information
+    extra_info = []
+    if len(description_lines) > 1:
+        extra_info.append(f"  **Full Description:**\n  {dataset['description']}")
+    
+    extra_info.extend([
+        f"  **[Metadata File]({file_path})**\n",
+        f"  **Topic:** {dataset['topic']}\n",
+        f"  **Subtopics:** {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}\n",
+        f"  **Source URL:** {dataset['source_url']}\n",
+        f"  **Open Data:** {'Yes' if dataset.get('open_data') is True else 'No'}\n",
+        f"  **Made by UK Gov:** {'Yes' if dataset.get('made_by_ukgov') is True else 'No'}\n",
+        f"  **Last Updated:** {dataset.get('last_updated')}\n",
+        f"  **Licence:** {dataset.get('licence')}\n",
+    ])
+    
+    # Combine everything
     return (
-        f"""- __[{dataset['name']}]({dataset['source_url']})__ [[Metadata]]({file_path}):
-        {OPEN_EMOJI if dataset.get("open_data") is True else CLOSED_EMOJI} {UK_GOV_EMOJI if dataset.get("made_by_ukgov") is True else EXTERNAL_EMOJI}:
-        {dataset['description']}
-        \n  - _Subtopics_: {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}
-        """
+        f"- {main_info}\n"
+        f"  {first_line_description}\n"
+        f"  <details>\n"
+        f"    <summary>More info</summary>\n"
+        f"\n"
+        f"{chr(10).join(extra_info)}\n"
+        f"  </details>\n"
     )
 
 def main():
