@@ -21,7 +21,7 @@ jobs:
           pip install pyyaml
 
       - name: Validate YAML files
-        run: python validate_yaml.py
+        run: python scripts/validate_yaml.py
 
       - name: Generate README
         run: python scripts/generate_readme.py
