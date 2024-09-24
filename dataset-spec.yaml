@@ -50,6 +50,10 @@ properties:
     type: array
     items:
       type: string
+  use_case_ideas: # Ideas for how the dataset could be used e.g visualisations, analysis or AI
+    type: array
+    items:
+      type: string
 required:
   - name
   - description
