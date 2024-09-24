@@ -9,6 +9,8 @@ properties:
     format: uri
   open_data:
     type: boolean
+  made_by_ukgov:
+    type: boolean
   topic:
     type: string
   subtopics:
@@ -53,9 +55,8 @@ required:
   - description
   - source_url
   - open_data
+  - made_by_ukgov
   - topic
   - format
   - last_updated
   - license
-  - coverage
-  - tags

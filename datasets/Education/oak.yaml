@@ -1,0 +1,24 @@
+name: Oak Lesson Plans
+description: Educational resources and lesson plans from Oak National Academy.
+source_url: https://www.thenational.academy/
+open_data: true
+made_by_ukgov: false
+topic: Education
+subtopics:
+  - Curriculum
+  - Teaching Resources
+  - Online Learning
+format: PDF
+last_updated: "2024-09-01"
+update_frequency: Quarterly
+license: Creative Commons Attribution 4.0 International
+coverage:
+  temporal:
+    start: "2020-04-20"
+    end: "2024-09-01"
+  spatial: United Kingdom
+tags:
+  - education
+  - lesson plans
+  - curriculum
+  - online learning

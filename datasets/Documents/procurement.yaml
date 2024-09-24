@@ -1,0 +1,24 @@
+name: Government Procurement Data
+description: Data on government procurement activities, including tenders and contracts.
+source_url: https://www.gov.uk/contracts-finder
+open_data: true
+made_by_ukgov: true
+topic: Government
+subtopics:
+  - Public Procurement
+  - Tenders
+  - Contracts
+format: JSON
+last_updated: "2024-09-24"
+update_frequency: Daily
+license: Open Government License v3.0
+coverage:
+  temporal:
+    start: "2011-01-01"
+    end: "2024-09-24"
+  spatial: United Kingdom
+tags:
+  - procurement
+  - tenders
+  - contracts
+  - government spending

@@ -9,6 +9,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 START_MARKER = "<!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->"
 END_MARKER = "<!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->"
 
+OPEN_EMOJI = "🌐"
+CLOSED_EMOJI = "🔐"
+UK_GOV_EMOJI = "🏛️"
+EXTERNAL_EMOJI = "🏢"
+
 def generate_toc(topics):
     toc = "## Table of Contents\n\n"
     for topic in sorted(topics):
@@ -18,7 +23,7 @@ def generate_toc(topics):
 def generate_dataset_entry(dataset, file_path):
     return (
         f"""- __[{dataset['name']}]({dataset['source_url']})__ [[Metadata]]({file_path}):
-        {"🌐" if dataset.get("open_data") is True else "🔐"}:
+        {OPEN_EMOJI if dataset.get("open_data") is True else CLOSED_EMOJI} {UK_GOV_EMOJI if dataset.get("made_by_ukgov") is True else EXTERNAL_EMOJI}:
         {dataset['description']}
         \n  - _Subtopics_: {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}
         """
@@ -63,6 +68,17 @@ def main():
     
     # Generate new content for README
     new_content = generate_toc(topics) + "\n"
+
+    # Add key for emojis 
+    new_content += (
+        "__Key__:\n\n"
+        f"- {OPEN_EMOJI} Open Data\n"
+        f"- {CLOSED_EMOJI} Closed Data\n"
+        f"- {UK_GOV_EMOJI} UK Government Dataset\n"
+        f"- {EXTERNAL_EMOJI} External Dataset\n\n"
+    )
+
+    # Add datasets to README
     for topic, datasets in sorted(topics.items()):
         new_content += f"\n## {topic}\n\n"
         for dataset, file_path in sorted(datasets, key=lambda x: x[0]['name']):

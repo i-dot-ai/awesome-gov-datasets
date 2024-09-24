@@ -1,0 +1,28 @@
+name: GOV.UK Content
+description: Official content from the GOV.UK website, including guidance and policy documents.
+source_url: https://www.gov.uk/government/publications
+open_data: true
+made_by_ukgov: true
+topic: Government
+subtopics:
+  - Speeches
+  - Authored Articles
+  - Consultation Outcomes
+  - Corporate Reports
+  - FOI Releases
+  - Impact Assessments
+  - Policy Papers
+format: HTML
+last_updated: "2024-09-24"
+update_frequency: Daily
+license: Open Government License v3.0
+coverage:
+  temporal:
+    start: "2012-10-17"
+    end: "2024-09-24"
+  spatial: United Kingdom
+tags:
+  - government
+  - policy
+  - guidance
+  - official documents
