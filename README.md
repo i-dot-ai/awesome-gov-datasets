@@ -51,68 +51,204 @@ __Key__:
 
 ## Administration
 
-- __[GOV.UK Content](https://www.gov.uk/government/publications)__ [[Metadata]](datasets/Administration/govuk.yaml):
-        🌐 🏛️:
-        Official content from the GOV.UK website, including guidance and policy documents.
-        
-  - _Subtopics_: `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
-        
-- __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Administration/procurement.yaml):
-        🌐 🏛️:
-        Data on government procurement activities, including tenders and contracts.
-        
-  - _Subtopics_: `Public Procurement`, `Tenders`, `Contracts`
-        
+- __[GOV.UK Content](https://www.gov.uk/government/publications)__ 🌐 🏛️
+  Official content from the GOV.UK website, including guidance and policy documents.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Administration/govuk.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
+
+  **Source URL:** https://www.gov.uk/government/publications
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-24
+
+  **Licence:** None
+
+  </details>
+
+- __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ 🌐 🏛️
+  Data on government procurement activities, including tenders and contracts.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Administration/procurement.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Public Procurement`, `Tenders`, `Contracts`
+
+  **Source URL:** https://www.gov.uk/contracts-finder
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-24
+
+  **Licence:** None
+
+  </details>
+
 
 ## Business
 
-- __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ [[Metadata]](datasets/Business/companies-house.yaml):
-        🌐 🏛️:
-        Registry information on UK companies, including formation, directors, and financials.
-        
-  - _Subtopics_: `Company Registration`, `Corporate Governance`, `Financial Reporting`
-        
+- __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ 🌐 🏛️
+  Registry information on UK companies, including formation, directors, and financials.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Business/companies-house.yaml)**
+
+  **Topic:** Business
+
+  **Subtopics:** `Company Registration`, `Corporate Governance`, `Financial Reporting`
+
+  **Source URL:** https://www.gov.uk/government/organisations/companies-house/about/statistics
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-23
+
+  **Licence:** None
+
+  </details>
+
 
 ## Education
 
-- __[Oak Lesson Plans](https://www.thenational.academy/)__ [[Metadata]](datasets/Education/oak.yaml):
-        🌐 🏢:
-        Educational resources and lesson plans from Oak National Academy.
-        
-  - _Subtopics_: `Curriculum`, `Teaching Resources`, `Online Learning`
-        
+- __[Oak Lesson Plans](https://www.thenational.academy/)__ 🌐 🏢
+  Educational resources and lesson plans from Oak National Academy.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Education/oak.yaml)**
+
+  **Topic:** Education
+
+  **Subtopics:** `Curriculum`, `Teaching Resources`, `Online Learning`
+
+  **Source URL:** https://www.thenational.academy/
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** No
+
+  **Last Updated:** 2024-09-01
+
+  **Licence:** None
+
+  </details>
+
 
 ## Law
 
-- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ [[Metadata]](datasets/Law/caselaw.yaml):
-        🌐 🏛️:
-        Judicial decisions from UK courts, including summaries and full-text opinions.
-        
-  - _Subtopics_: `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
-        
-- __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Law/legislation.yaml):
-        🌐 🏛️:
-        Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
-        
-  - _Subtopics_: `Statutes`, `Regulations`, `Explanatory Notes`
-        
+- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ 🌐 🏛️
+  Judicial decisions from UK courts, including summaries and full-text opinions.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Law/caselaw.yaml)**
+
+  **Topic:** Law
+
+  **Subtopics:** `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
+
+  **Source URL:** https://caselaw.nationalarchives.gov.uk/
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-22
+
+  **Licence:** None
+
+  </details>
+
+- __[UK Legislation](https://www.legislation.gov.uk/data)__ 🌐 🏛️
+  Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Law/legislation.yaml)**
+
+  **Topic:** Law
+
+  **Subtopics:** `Statutes`, `Regulations`, `Explanatory Notes`
+
+  **Source URL:** https://www.legislation.gov.uk/data
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-20
+
+  **Licence:** None
+
+  </details>
+
 
 ## Parliament
 
-- __[Hansard](https://hansard.parliament.uk/)__ [[Metadata]](datasets/Parliament/hansard.yaml):
-        🌐 🏛️:
-        Transcripts of parliamentary debates and research reports providing insights into the legislative process.
-        
-  - _Subtopics_: `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
-        
+- __[Hansard](https://hansard.parliament.uk/)__ 🌐 🏛️
+  Transcripts of parliamentary debates and research reports providing insights into the legislative process.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Parliament/hansard.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
+
+  **Source URL:** https://hansard.parliament.uk/
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-23
+
+  **Licence:** None
+
+  </details>
+
 
 ## Planning
 
-- __[Planning Data](https://data.gov.uk/dataset/planning-data)__ [[Metadata]](datasets/Planning/planning.yaml):
-        🌐 🏛️:
-        Detailed municipal planning data including zoning maps and development plans.
-        
-  - _Subtopics_: `Zoning`, `Development Plans`, `Land Use`
-        
+- __[Planning Data](https://data.gov.uk/dataset/planning-data)__ 🌐 🏛️
+  Detailed municipal planning data including zoning maps and development plans.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Planning/planning.yaml)**
+
+  **Topic:** Urban Planning
+
+  **Subtopics:** `Zoning`, `Development Plans`, `Land Use`
+
+  **Source URL:** https://data.gov.uk/dataset/planning-data
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-15
+
+  **Licence:** None
+
+  </details>
+
 
 <!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->
