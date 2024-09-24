@@ -56,12 +56,14 @@ __Key__:
         Official content from the GOV.UK website, including guidance and policy documents.
         
   - _Subtopics_: `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
-        - __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Administration/procurement.yaml):
+        
+- __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Administration/procurement.yaml):
         🌐 🏛️:
         Data on government procurement activities, including tenders and contracts.
         
   - _Subtopics_: `Public Procurement`, `Tenders`, `Contracts`
         
+
 ## Business
 
 - __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ [[Metadata]](datasets/Business/companies-house.yaml):
@@ -70,6 +72,7 @@ __Key__:
         
   - _Subtopics_: `Company Registration`, `Corporate Governance`, `Financial Reporting`
         
+
 ## Education
 
 - __[Oak Lesson Plans](https://www.thenational.academy/)__ [[Metadata]](datasets/Education/oak.yaml):
@@ -78,6 +81,7 @@ __Key__:
         
   - _Subtopics_: `Curriculum`, `Teaching Resources`, `Online Learning`
         
+
 ## Law
 
 - __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ [[Metadata]](datasets/Law/caselaw.yaml):
@@ -85,12 +89,14 @@ __Key__:
         Judicial decisions from UK courts, including summaries and full-text opinions.
         
   - _Subtopics_: `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
-        - __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Law/legislation.yaml):
+        
+- __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Law/legislation.yaml):
         🌐 🏛️:
         Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
         
   - _Subtopics_: `Statutes`, `Regulations`, `Explanatory Notes`
         
+
 ## Parliament
 
 - __[Hansard](https://hansard.parliament.uk/)__ [[Metadata]](datasets/Parliament/hansard.yaml):
@@ -99,6 +105,7 @@ __Key__:
         
   - _Subtopics_: `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
         
+
 ## Planning
 
 - __[Planning Data](https://data.gov.uk/dataset/planning-data)__ [[Metadata]](datasets/Planning/planning.yaml):
@@ -107,4 +114,5 @@ __Key__:
         
   - _Subtopics_: `Zoning`, `Development Plans`, `Land Use`
         
+
 <!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->
