@@ -34,15 +34,77 @@ _The content below this line is automatically generated. Do not edit manually._
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
 ## Table of Contents
 
+- [Business](#business)
+- [Documents](#documents)
+- [Education](#education)
+- [Legislation](#legislation)
 - [Parliament](#parliament)
+- [Planning](#planning)
+
+__Key__:
+
+- 🌐 Open Data
+- 🔐 Closed Data
+- 🏛️ UK Government Dataset
+- 🏢 External Dataset
 
 
+## Business
+
+- __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ [[Metadata]](datasets/Business/companies-house.yaml):
+        🌐 🏛️:
+        Registry information on UK companies, including formation, directors, and financials.
+        
+  - _Subtopics_: `Company Registration`, `Corporate Governance`, `Financial Reporting`
+        
+## Documents
+
+- __[GOV.UK Content](https://www.gov.uk/government/publications)__ [[Metadata]](datasets/Documents/govuk.yaml):
+        🌐 🏛️:
+        Official content from the GOV.UK website, including guidance and policy documents.
+        
+  - _Subtopics_: `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
+        - __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ [[Metadata]](datasets/Documents/procurement.yaml):
+        🌐 🏛️:
+        Data on government procurement activities, including tenders and contracts.
+        
+  - _Subtopics_: `Public Procurement`, `Tenders`, `Contracts`
+        
+## Education
+
+- __[Oak Lesson Plans](https://www.thenational.academy/)__ [[Metadata]](datasets/Education/oak.yaml):
+        🌐 🏢:
+        Educational resources and lesson plans from Oak National Academy.
+        
+  - _Subtopics_: `Curriculum`, `Teaching Resources`, `Online Learning`
+        
+## Legislation
+
+- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ [[Metadata]](datasets/Legislation/caselaw.yaml):
+        🌐 🏛️:
+        Judicial decisions from UK courts, including summaries and full-text opinions.
+        
+  - _Subtopics_: `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
+        - __[UK Legislation](https://www.legislation.gov.uk/data)__ [[Metadata]](datasets/Legislation/legislation.yaml):
+        🌐 🏛️:
+        Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
+        
+  - _Subtopics_: `Statutes`, `Regulations`, `Explanatory Notes`
+        
 ## Parliament
 
-- __[UK Parliamentary Hansard](https://hansard.parliament.uk/)__ [[Metadata]](datasets/Parliament/hansard.yaml):
-        🌐:
-        Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords.
+- __[Hansard](https://hansard.parliament.uk/)__ [[Metadata]](datasets/Parliament/hansard.yaml):
+        🌐 🏛️:
+        Transcripts of parliamentary debates and research reports providing insights into the legislative process.
         
-  - _Subtopics_: `Parliamentary Proceedings`, `Political Debates`, `Legislation`
+  - _Subtopics_: `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
+        
+## Planning
+
+- __[Planning Data](https://data.gov.uk/dataset/planning-data)__ [[Metadata]](datasets/Planning/planning.yaml):
+        🌐 🏛️:
+        Detailed municipal planning data including zoning maps and development plans.
+        
+  - _Subtopics_: `Zoning`, `Development Plans`, `Land Use`
         
 <!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->
