@@ -1,4 +1,2 @@
 pyyaml==6.0
 jsonschema==3.2.0
-flake8==3.9.2
-black==21.6b0
