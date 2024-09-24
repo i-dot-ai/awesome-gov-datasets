@@ -1,0 +1,23 @@
+name: Parliament
+description: Developer hub for UK parliamentary data.
+source_url: https://developer.parliament.uk/
+open_data: true
+made_by_ukgov: true
+topic: Government
+subtopics:
+  - Votes
+  - Bills
+  - Committees
+format: REST API
+last_updated: "2024-09-23"
+update_frequency: Daily
+license: Open Parliament License v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - parliament
+  - votes
+  - bills
+  - committees
+  - politics
+  

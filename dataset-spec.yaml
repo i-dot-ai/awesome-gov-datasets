@@ -43,9 +43,6 @@ properties:
           - end
       spatial:
         type: string
-    required:
-      - temporal
-      - spatial
   tags:
     type: array
     items:
