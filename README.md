@@ -224,6 +224,29 @@ __Key__:
 
   </details>
 
+- __[Parliament](https://developer.parliament.uk/)__ 🌐 🏛️
+  Developer hub for UK parliamentary data.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Parliament/parliament.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Votes`, `Bills`, `Committees`
+
+  **Source URL:** https://developer.parliament.uk/
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
+
+  **Last Updated:** 2024-09-23
+
+  **Licence:** None
+
+  </details>
+
 
 ## Planning
 
