@@ -1,0 +1,58 @@
+type: object
+properties:
+  name:
+    type: string
+  description:
+    type: string
+  source_url:
+    type: string
+    format: uri
+  topic:
+    type: string
+  subtopics:
+    type: array
+    items:
+      type: string
+  format:
+    type: string
+  last_updated:
+    type: string
+    format: date
+  update_frequency:
+    type: string
+  license:
+    type: string
+  coverage:
+    type: object
+    properties:
+      temporal:
+        type: object
+        properties:
+          start:
+            type: string
+            format: date
+          end:
+            type: string
+            format: date
+        required:
+          - start
+          - end
+      spatial:
+        type: string
+    required:
+      - temporal
+      - spatial
+  tags:
+    type: array
+    items:
+      type: string
+required:
+  - name
+  - description
+  - source_url
+  - topic
+  - format
+  - last_updated
+  - license
+  - coverage
+  - tags

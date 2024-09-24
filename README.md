@@ -6,4 +6,30 @@
 
 A curated list of awesome datasets published by or relevant to the UK government with the goal of making these resources more accessible to the broader data community. This repo is inspired by [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) and maintained by [i.AI](https://github.com/i-dot-ai).
 
-## Table of Contents
+## Contributing
+
+To add a new dataset:
+
+1. Create a new YAML file in the appropriate topic folder (or create a new folder if needed).
+2. Follow the YAML specification in `dataset-spec.yaml`.
+3. Commit and push your changes.
+4. When merged to main, the GitHub Action will automatically update the README with your new dataset.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to all contributors who help curate this list.
+- UK Government and listed organisations for providing access to these valuable datasets.
+
+
+---
+
+_The content below this line is automatically generated. Do not edit manually._
+
+---
+
+<!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
+<!-- AUTO-GENERATED-CONTENT:END (Do not remove this line) -->

@@ -1,0 +1,25 @@
+name: "UK Parliamentary Hansard"
+description: "Official reports of debates in the UK Parliament, including both the House of Commons and the House of Lords."
+source_url: "https://hansard.parliament.uk/"
+topic: "Government"
+subtopics:
+  - "Parliamentary Proceedings"
+  - "Political Debates"
+  - "Legislation"
+format: "HTML, XML"
+last_updated: "2024-09-24"  # This should be updated to the current date when adding to the repository
+update_frequency: "Daily (when Parliament is in session)"
+license: "Open Parliament License v3.0"
+coverage:
+  temporal:
+    start: "1803-01-01"  # The earliest available records
+    end: "2023-09-24"    # This should be updated to the current date when adding to the repository
+  spatial: "United Kingdom"
+tags:
+  - "parliament"
+  - "debates"
+  - "legislation"
+  - "politics"
+  - "hansard"
+  - "commons"
+  - "lords"

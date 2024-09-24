@@ -1,0 +1,5 @@
+# .gitignore
+README_test.md
+venv/
+__pycache__/
+*.pyc
