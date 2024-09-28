@@ -25,12 +25,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UK Government and listed organisations for providing access to these valuable datasets.
 
 
----
-
-_The content below this line is automatically generated. Do not edit manually._
-
----
-
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
 ## Table of Contents
 
