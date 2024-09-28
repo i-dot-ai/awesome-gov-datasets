@@ -1,0 +1,24 @@
+name: Ordanance Survey Data Hub
+description: Great Britain’s Geospatial Data platform.
+source_url: https://osdatahub.os.uk/
+open_data: true
+made_by_ukgov: true
+topic: Geospatial
+subtopics:
+  - Mapping
+  - Geospatial Data
+  - Boundaries
+  - Topography
+  - Environment
+  - Climate
+  - Infrastructure
+format: API
+last_updated: "2024-09-01"
+update_frequency: Varied
+license: Open Governmet Licence
+coverage:
+  spatial: United Kingdom
+tags:
+  - geospatial
+  - mapping
+  
