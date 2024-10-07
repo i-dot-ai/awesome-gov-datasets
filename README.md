@@ -31,6 +31,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Administration](#administration)
 - [Business](#business)
 - [Education](#education)
+- [Geospatial](#geospatial)
 - [Law](#law)
 - [Parliament](#parliament)
 - [Planning](#planning)
@@ -136,6 +137,32 @@ __Key__:
   **Open Data:** Yes
 
   **Made by UK Gov:** No
+
+  **Last Updated:** 2024-09-01
+
+  **Licence:** None
+
+  </details>
+
+
+## Geospatial
+
+- __[Ordanance Survey Data Hub](https://osdatahub.os.uk/)__ 🌐 🏛️
+  Great Britain’s Geospatial Data platform.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Geospatial/ordanance-survey.yaml)**
+
+  **Topic:** Geospatial
+
+  **Subtopics:** `Mapping`, `Geospatial Data`, `Boundaries`, `Topography`, `Environment`, `Climate`, `Infrastructure`
+
+  **Source URL:** https://osdatahub.os.uk/
+
+  **Open Data:** Yes
+
+  **Made by UK Gov:** Yes
 
   **Last Updated:** 2024-09-01
 
