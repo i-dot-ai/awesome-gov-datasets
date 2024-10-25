@@ -1,6 +1,6 @@
 name: Planning Data
-description: Detailed municipal planning data including zoning maps and development plans.
-source_url: https://data.gov.uk/dataset/planning-data
+description: A platform to help you create services to inform planning and housing decisions in England.
+source_url: https://www.planning.data.gov.uk/
 open_data: true
 made_by_ukgov: true
 topic: Urban Planning
@@ -8,17 +8,13 @@ subtopics:
   - Zoning
   - Development Plans
   - Land Use
-format: GeoJSON
+format: CSV/JSON/GeoJSON
 is_active: true
 update_frequency: Monthly
 licence: Open Government Licence v3.0
 coverage:
-  temporal:
-    start: "2010-01-01"
-    end: "2024-09-15"
-  spatial: United Kingdom
+  spatial: England
 tags:
   - planning
   - zoning
   - urban development
-  - municipal data

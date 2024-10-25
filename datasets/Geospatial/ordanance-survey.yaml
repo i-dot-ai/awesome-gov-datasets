@@ -12,7 +12,7 @@ subtopics:
   - Environment
   - Climate
   - Infrastructure
-format: API
+format: API/ESRI Shapefile/MapInfo/+more
 is_active: true
 update_frequency: Varied
 licence: Open Governmet Licence

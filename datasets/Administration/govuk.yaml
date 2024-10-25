@@ -1,6 +1,6 @@
 name: GOV.UK Content
 description: Official content from the GOV.UK website, including guidance and policy documents.
-source_url: https://www.gov.uk/government/publications
+source_url: https://content-api.publishing.service.gov.uk/#gov-uk-content-api
 open_data: true
 made_by_ukgov: true
 topic: Government

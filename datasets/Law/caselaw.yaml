@@ -1,6 +1,6 @@
 name: UK Caselaw
 description: Judicial decisions from UK courts, including summaries and full-text opinions.
-source_url: https://caselaw.nationalarchives.gov.uk/
+source_url: https://nationalarchives.github.io/ds-find-caselaw-docs/public
 open_data: true
 made_by_ukgov: true
 topic: Law
@@ -8,14 +8,14 @@ subtopics:
   - Court Decisions
   - Legal Precedents
   - Judicial Opinions
-format: JSON
+format: XML
 is_active: true
 update_frequency: Weekly
 licence: Open Government Licence v3.0
 coverage:
   temporal:
     start: "1865-01-01"
-    end: "2024-09-22"
+    end: "current"
   spatial: United Kingdom
 tags:
   - caselaw

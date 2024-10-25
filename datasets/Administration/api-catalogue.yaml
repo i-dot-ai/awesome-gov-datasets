@@ -1,0 +1,20 @@
+name: GOV.UK API Catalogue
+description: APIs published by public sector organisations in the UK.
+source_url: https://www.api.gov.uk/#uk-public-sector-apis
+open_data: true
+made_by_ukgov: true
+topic: Government APIs
+subtopics:
+  - API Catalogue
+  - Government Info
+  - Combined Resource
+format: APIs
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - government
+  - APIs
+  - public sector
+  - data catalogues

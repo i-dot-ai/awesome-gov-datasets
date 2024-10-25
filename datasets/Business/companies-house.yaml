@@ -1,6 +1,6 @@
 name: Companies House Data
 description: Registry information on UK companies, including formation, directors, and financials.
-source_url: https://www.gov.uk/government/organisations/companies-house/about/statistics
+source_url: https://developer.company-information.service.gov.uk/overview
 open_data: true
 made_by_ukgov: true
 topic: Business

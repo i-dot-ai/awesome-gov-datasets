@@ -1,6 +1,6 @@
 name: UK Legislation
 description: Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
-source_url: https://www.legislation.gov.uk/data
+source_url: https://www.legislation.gov.uk/developer
 open_data: true
 made_by_ukgov: true
 topic: Law
@@ -8,14 +8,14 @@ subtopics:
   - Statutes
   - Regulations
   - Explanatory Notes
-format: XML
+format: XML/HTML/RDF/Atom
 is_active: true
 update_frequency: Daily
 licence: Open Parliament Licence v3.0
 coverage:
   temporal:
     start: "1267-01-01"
-    end: "2024-09-20"
+    end: "current"
   spatial: United Kingdom
 tags:
   - legislation
