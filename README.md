@@ -46,7 +46,30 @@ __Key__:
 
 ## Administration
 
-- __[GOV.UK Content](https://www.gov.uk/government/publications)__ 🌐 🏛️
+- __[GOV.UK API Catalogue](https://www.api.gov.uk/#uk-public-sector-apis)__ 🌐 🏛️
+  APIs published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Administration/api-catalogue.yaml)**
+
+  **Topic:** Government APIs
+
+  **Subtopics:** `API Catalogue`, `Government Info`, `Combined Resource`
+
+  **Source URL:** https://www.api.gov.uk/#uk-public-sector-apis
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __[GOV.UK Content](https://content-api.publishing.service.gov.uk/#gov-uk-content-api)__ 🌐 🏛️
   Official content from the GOV.UK website, including guidance and policy documents.
   <details>
     <summary>More info</summary>
@@ -57,15 +80,15 @@ __Key__:
 
   **Subtopics:** `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
 
-  **Source URL:** https://www.gov.uk/government/publications
+  **Source URL:** https://content-api.publishing.service.gov.uk/#gov-uk-content-api
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-24
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
@@ -82,20 +105,20 @@ __Key__:
 
   **Source URL:** https://www.gov.uk/contracts-finder
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-24
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
 
 ## Business
 
-- __[Companies House Data](https://www.gov.uk/government/organisations/companies-house/about/statistics)__ 🌐 🏛️
+- __[Companies House Data](https://developer.company-information.service.gov.uk/overview)__ 🌐 🏛️
   Registry information on UK companies, including formation, directors, and financials.
   <details>
     <summary>More info</summary>
@@ -106,22 +129,22 @@ __Key__:
 
   **Subtopics:** `Company Registration`, `Corporate Governance`, `Financial Reporting`
 
-  **Source URL:** https://www.gov.uk/government/organisations/companies-house/about/statistics
+  **Source URL:** https://developer.company-information.service.gov.uk/overview
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-23
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
 
 ## Education
 
-- __[Oak Lesson Plans](https://www.thenational.academy/)__ 🌐 🏢
+- __[Oak Lesson Plans](https://open-api.thenational.academy/)__ 🌐 🏛️
   Educational resources and lesson plans from Oak National Academy.
   <details>
     <summary>More info</summary>
@@ -132,15 +155,15 @@ __Key__:
 
   **Subtopics:** `Curriculum`, `Teaching Resources`, `Online Learning`
 
-  **Source URL:** https://www.thenational.academy/
+  **Source URL:** https://open-api.thenational.academy/
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** No
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-01
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Creative Commons Attribution 4.0 International
 
   </details>
 
@@ -160,20 +183,20 @@ __Key__:
 
   **Source URL:** https://osdatahub.os.uk/
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-01
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Governmet Licence
 
   </details>
 
 
 ## Law
 
-- __[UK Caselaw](https://caselaw.nationalarchives.gov.uk/)__ 🌐 🏛️
+- __[UK Caselaw](https://nationalarchives.github.io/ds-find-caselaw-docs/public)__ 🌐 🏛️
   Judicial decisions from UK courts, including summaries and full-text opinions.
   <details>
     <summary>More info</summary>
@@ -184,19 +207,19 @@ __Key__:
 
   **Subtopics:** `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
 
-  **Source URL:** https://caselaw.nationalarchives.gov.uk/
+  **Source URL:** https://nationalarchives.github.io/ds-find-caselaw-docs/public
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-22
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
-- __[UK Legislation](https://www.legislation.gov.uk/data)__ 🌐 🏛️
+- __[UK Legislation](https://www.legislation.gov.uk/developer)__ 🌐 🏛️
   Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
   <details>
     <summary>More info</summary>
@@ -207,22 +230,22 @@ __Key__:
 
   **Subtopics:** `Statutes`, `Regulations`, `Explanatory Notes`
 
-  **Source URL:** https://www.legislation.gov.uk/data
+  **Source URL:** https://www.legislation.gov.uk/developer
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-20
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Parliament Licence v3.0
 
   </details>
 
 
 ## Parliament
 
-- __[Hansard](https://hansard.parliament.uk/)__ 🌐 🏛️
+- __[Hansard](https://hansard-api.parliament.uk)__ 🌐 🏛️
   Transcripts of parliamentary debates and research reports providing insights into the legislative process.
   <details>
     <summary>More info</summary>
@@ -233,15 +256,15 @@ __Key__:
 
   **Subtopics:** `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
 
-  **Source URL:** https://hansard.parliament.uk/
+  **Source URL:** https://hansard-api.parliament.uk
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-23
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Parliament Licence v3.0
 
   </details>
 
@@ -258,21 +281,21 @@ __Key__:
 
   **Source URL:** https://developer.parliament.uk/
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-23
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Parliament Licence v3.0
 
   </details>
 
 
 ## Planning
 
-- __[Planning Data](https://data.gov.uk/dataset/planning-data)__ 🌐 🏛️
-  Detailed municipal planning data including zoning maps and development plans.
+- __[Planning Data](https://www.planning.data.gov.uk/)__ 🌐 🏛️
+  A platform to help you create services to inform planning and housing decisions in England.
   <details>
     <summary>More info</summary>
 
@@ -282,15 +305,15 @@ __Key__:
 
   **Subtopics:** `Zoning`, `Development Plans`, `Land Use`
 
-  **Source URL:** https://data.gov.uk/dataset/planning-data
+  **Source URL:** https://www.planning.data.gov.uk/
 
-  **Open Data:** Yes
+  **Open Data:** ✅
 
-  **Made by UK Gov:** Yes
+  **Made by UK Gov:** ✅
 
-  **Last Updated:** 2024-09-15
+  **Active:** ✅
 
-  **Licence:** None
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
