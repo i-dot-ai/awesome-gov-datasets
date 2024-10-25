@@ -24,7 +24,7 @@ properties:
     format: date
   update_frequency:
     type: string
-  license:
+  licence:
     type: string
   coverage:
     type: object
@@ -60,4 +60,4 @@ required:
   - topic
   - format
   - last_updated
-  - license
+  - licence

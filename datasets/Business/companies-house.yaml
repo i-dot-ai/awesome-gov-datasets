@@ -11,7 +11,7 @@ subtopics:
 format: CSV
 last_updated: "2024-09-23"
 update_frequency: Daily
-license: Open Government License v3.0
+licence: Open Government Licence v3.0
 coverage:
   temporal:
     start: "1844-01-01"
