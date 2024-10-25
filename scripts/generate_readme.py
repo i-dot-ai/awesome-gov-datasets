@@ -23,7 +23,7 @@ def generate_toc(topics):
 def generate_dataset_entry(dataset, file_path):
     # Main information
     main_info = (
-        f"__[{dataset['name']}]({dataset['source_url']})__ "
+        f"__<a href='{dataset['source_url']}' target='_blank'>{dataset['name']}</a>__ "
         f"{OPEN_EMOJI if dataset.get('open_data') is True else CLOSED_EMOJI} "
         f"{UK_GOV_EMOJI if dataset.get('made_by_ukgov') is True else EXTERNAL_EMOJI}"
     )
@@ -41,7 +41,7 @@ def generate_dataset_entry(dataset, file_path):
         f"  **[Metadata File]({file_path})**\n",
         f"  **Topic:** {dataset['topic']}\n",
         f"  **Subtopics:** {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}\n",
-        f"  **Source URL:** {dataset['source_url']}\n",
+        f"  **Source URL:** <a href='{dataset['source_url']}' target='_blank'>{dataset['source_url']}</a>\n",
         f"  **Open Data:** {'✅' if dataset.get('open_data') is True else '❌'}\n",
         f"  **Made by UK Gov:** {'✅' if dataset.get('made_by_ukgov') is True else '❌'}\n",
         f"  **Active:** {'✅' if dataset.get('is_active') is True else '❌'}\n",
