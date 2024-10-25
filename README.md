@@ -46,7 +46,7 @@ __Key__:
 
 ## Administration
 
-- __[GOV.UK API Catalogue](https://www.api.gov.uk/#uk-public-sector-apis)__ 🌐 🏛️
+- __<a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>GOV.UK API Catalogue</a>__ 🌐 🏛️
   APIs published by public sector organisations in the UK.
   <details>
     <summary>More info</summary>
@@ -57,7 +57,7 @@ __Key__:
 
   **Subtopics:** `API Catalogue`, `Government Info`, `Combined Resource`
 
-  **Source URL:** https://www.api.gov.uk/#uk-public-sector-apis
+  **Source URL:** <a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>https://www.api.gov.uk/#uk-public-sector-apis</a>
 
   **Open Data:** ✅
 
@@ -69,7 +69,7 @@ __Key__:
 
   </details>
 
-- __[GOV.UK Content](https://content-api.publishing.service.gov.uk/#gov-uk-content-api)__ 🌐 🏛️
+- __<a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>GOV.UK Content</a>__ 🌐 🏛️
   Official content from the GOV.UK website, including guidance and policy documents.
   <details>
     <summary>More info</summary>
@@ -80,7 +80,7 @@ __Key__:
 
   **Subtopics:** `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
 
-  **Source URL:** https://content-api.publishing.service.gov.uk/#gov-uk-content-api
+  **Source URL:** <a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>https://content-api.publishing.service.gov.uk/#gov-uk-content-api</a>
 
   **Open Data:** ✅
 
@@ -92,7 +92,7 @@ __Key__:
 
   </details>
 
-- __[Government Procurement Data](https://www.gov.uk/contracts-finder)__ 🌐 🏛️
+- __<a href='https://www.gov.uk/contracts-finder' target='_blank'>Government Procurement Data</a>__ 🌐 🏛️
   Data on government procurement activities, including tenders and contracts.
   <details>
     <summary>More info</summary>
@@ -103,7 +103,7 @@ __Key__:
 
   **Subtopics:** `Public Procurement`, `Tenders`, `Contracts`
 
-  **Source URL:** https://www.gov.uk/contracts-finder
+  **Source URL:** <a href='https://www.gov.uk/contracts-finder' target='_blank'>https://www.gov.uk/contracts-finder</a>
 
   **Open Data:** ✅
 
@@ -118,7 +118,7 @@ __Key__:
 
 ## Business
 
-- __[Companies House Data](https://developer.company-information.service.gov.uk/overview)__ 🌐 🏛️
+- __<a href='https://developer.company-information.service.gov.uk/overview' target='_blank'>Companies House Data</a>__ 🌐 🏛️
   Registry information on UK companies, including formation, directors, and financials.
   <details>
     <summary>More info</summary>
@@ -129,7 +129,7 @@ __Key__:
 
   **Subtopics:** `Company Registration`, `Corporate Governance`, `Financial Reporting`
 
-  **Source URL:** https://developer.company-information.service.gov.uk/overview
+  **Source URL:** <a href='https://developer.company-information.service.gov.uk/overview' target='_blank'>https://developer.company-information.service.gov.uk/overview</a>
 
   **Open Data:** ✅
 
@@ -144,7 +144,7 @@ __Key__:
 
 ## Education
 
-- __[Oak Lesson Plans](https://open-api.thenational.academy/)__ 🌐 🏛️
+- __<a href='https://open-api.thenational.academy/' target='_blank'>Oak Lesson Plans</a>__ 🌐 🏛️
   Educational resources and lesson plans from Oak National Academy.
   <details>
     <summary>More info</summary>
@@ -155,7 +155,7 @@ __Key__:
 
   **Subtopics:** `Curriculum`, `Teaching Resources`, `Online Learning`
 
-  **Source URL:** https://open-api.thenational.academy/
+  **Source URL:** <a href='https://open-api.thenational.academy/' target='_blank'>https://open-api.thenational.academy/</a>
 
   **Open Data:** ✅
 
@@ -170,7 +170,7 @@ __Key__:
 
 ## Geospatial
 
-- __[Ordanance Survey Data Hub](https://osdatahub.os.uk/)__ 🌐 🏛️
+- __<a href='https://osdatahub.os.uk/' target='_blank'>Ordanance Survey Data Hub</a>__ 🌐 🏛️
   Great Britain’s Geospatial Data platform.
   <details>
     <summary>More info</summary>
@@ -181,7 +181,7 @@ __Key__:
 
   **Subtopics:** `Mapping`, `Geospatial Data`, `Boundaries`, `Topography`, `Environment`, `Climate`, `Infrastructure`
 
-  **Source URL:** https://osdatahub.os.uk/
+  **Source URL:** <a href='https://osdatahub.os.uk/' target='_blank'>https://osdatahub.os.uk/</a>
 
   **Open Data:** ✅
 
@@ -196,7 +196,7 @@ __Key__:
 
 ## Law
 
-- __[UK Caselaw](https://nationalarchives.github.io/ds-find-caselaw-docs/public)__ 🌐 🏛️
+- __<a href='https://nationalarchives.github.io/ds-find-caselaw-docs/public' target='_blank'>UK Caselaw</a>__ 🌐 🏛️
   Judicial decisions from UK courts, including summaries and full-text opinions.
   <details>
     <summary>More info</summary>
@@ -207,7 +207,7 @@ __Key__:
 
   **Subtopics:** `Court Decisions`, `Legal Precedents`, `Judicial Opinions`
 
-  **Source URL:** https://nationalarchives.github.io/ds-find-caselaw-docs/public
+  **Source URL:** <a href='https://nationalarchives.github.io/ds-find-caselaw-docs/public' target='_blank'>https://nationalarchives.github.io/ds-find-caselaw-docs/public</a>
 
   **Open Data:** ✅
 
@@ -219,7 +219,7 @@ __Key__:
 
   </details>
 
-- __[UK Legislation](https://www.legislation.gov.uk/developer)__ 🌐 🏛️
+- __<a href='https://www.legislation.gov.uk/developer' target='_blank'>UK Legislation</a>__ 🌐 🏛️
   Comprehensive legal texts, explanatory notes, regulations, and amendment metadata.
   <details>
     <summary>More info</summary>
@@ -230,7 +230,7 @@ __Key__:
 
   **Subtopics:** `Statutes`, `Regulations`, `Explanatory Notes`
 
-  **Source URL:** https://www.legislation.gov.uk/developer
+  **Source URL:** <a href='https://www.legislation.gov.uk/developer' target='_blank'>https://www.legislation.gov.uk/developer</a>
 
   **Open Data:** ✅
 
@@ -245,7 +245,7 @@ __Key__:
 
 ## Parliament
 
-- __[Hansard](https://hansard-api.parliament.uk)__ 🌐 🏛️
+- __<a href='https://hansard-api.parliament.uk' target='_blank'>Hansard</a>__ 🌐 🏛️
   Transcripts of parliamentary debates and research reports providing insights into the legislative process.
   <details>
     <summary>More info</summary>
@@ -256,7 +256,7 @@ __Key__:
 
   **Subtopics:** `Parliamentary Debates`, `Legislative Process`, `Political Discourse`
 
-  **Source URL:** https://hansard-api.parliament.uk
+  **Source URL:** <a href='https://hansard-api.parliament.uk' target='_blank'>https://hansard-api.parliament.uk</a>
 
   **Open Data:** ✅
 
@@ -268,7 +268,7 @@ __Key__:
 
   </details>
 
-- __[Parliament](https://developer.parliament.uk/)__ 🌐 🏛️
+- __<a href='https://developer.parliament.uk/' target='_blank'>Parliament</a>__ 🌐 🏛️
   Developer hub for UK parliamentary data.
   <details>
     <summary>More info</summary>
@@ -279,7 +279,7 @@ __Key__:
 
   **Subtopics:** `Votes`, `Bills`, `Committees`
 
-  **Source URL:** https://developer.parliament.uk/
+  **Source URL:** <a href='https://developer.parliament.uk/' target='_blank'>https://developer.parliament.uk/</a>
 
   **Open Data:** ✅
 
@@ -294,7 +294,7 @@ __Key__:
 
 ## Planning
 
-- __[Planning Data](https://www.planning.data.gov.uk/)__ 🌐 🏛️
+- __<a href='https://www.planning.data.gov.uk/' target='_blank'>Planning Data</a>__ 🌐 🏛️
   A platform to help you create services to inform planning and housing decisions in England.
   <details>
     <summary>More info</summary>
@@ -305,7 +305,7 @@ __Key__:
 
   **Subtopics:** `Zoning`, `Development Plans`, `Land Use`
 
-  **Source URL:** https://www.planning.data.gov.uk/
+  **Source URL:** <a href='https://www.planning.data.gov.uk/' target='_blank'>https://www.planning.data.gov.uk/</a>
 
   **Open Data:** ✅
 
