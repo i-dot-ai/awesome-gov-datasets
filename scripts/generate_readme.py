@@ -61,7 +61,8 @@ def generate_dataset_entry(dataset, file_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate README for UK Government Datasets")
-    parser.add_argument("--output", default="README_template.md", help="Output file name")
+    parser.add_argument("--template", default="README_template.md", help="Template file name")
+    parser.add_argument("--output", default="README.md", help="Output file name")
     args = parser.parse_args()
 
     topics = {}
@@ -90,11 +91,10 @@ def main():
                     logging.error(f"Unexpected error processing {file_path}: {e}")
 
     try:
-        with open("README.md", "r") as readme:
+        with open(args.template, "r") as readme:
             content = readme.read()
     except FileNotFoundError:
-        logging.warning("README.md not found. Creating a new one.")
-        content = f"# Awesome UK Government Datasets\n\n{START_MARKER}\n{END_MARKER}"
+        raise FileNotFoundError(f"{args.template} not found.")
     
     # Generate new content for README
     new_content = generate_toc(topics) + "\n"
