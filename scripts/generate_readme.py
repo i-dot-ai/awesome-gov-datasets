@@ -42,9 +42,9 @@ def generate_dataset_entry(dataset, file_path):
         f"  **Topic:** {dataset['topic']}\n",
         f"  **Subtopics:** {', '.join([f'`{tag}`' for tag in dataset['subtopics']])}\n",
         f"  **Source URL:** {dataset['source_url']}\n",
-        f"  **Open Data:** {'Yes' if dataset.get('open_data') is True else 'No'}\n",
-        f"  **Made by UK Gov:** {'Yes' if dataset.get('made_by_ukgov') is True else 'No'}\n",
-        f"  **Last Updated:** {dataset.get('last_updated')}\n",
+        f"  **Open Data:** {'✅' if dataset.get('open_data') is True else '❌'}\n",
+        f"  **Made by UK Gov:** {'✅' if dataset.get('made_by_ukgov') is True else '❌'}\n",
+        f"  **Active:** {'✅' if dataset.get('is_active') is True else '❌'}\n",
         f"  **Licence:** {dataset.get('licence')}\n",
     ])
     

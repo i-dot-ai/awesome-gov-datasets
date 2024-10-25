@@ -9,7 +9,7 @@ subtopics:
   - Development Plans
   - Land Use
 format: GeoJSON
-last_updated: "2024-09-15"
+is_active: true
 update_frequency: Monthly
 licence: Open Government Licence v3.0
 coverage:

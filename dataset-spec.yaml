@@ -19,6 +19,8 @@ properties:
       type: string
   format:
     type: string
+  is_active:
+    type: boolean
   last_updated:
     type: string
     format: date
@@ -59,5 +61,5 @@ required:
   - made_by_ukgov
   - topic
   - format
-  - last_updated
+  - is_active
   - licence

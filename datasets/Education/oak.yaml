@@ -9,13 +9,10 @@ subtopics:
   - Teaching Resources
   - Online Learning
 format: PDF
-last_updated: "2024-09-01"
+is_active: true
 update_frequency: Quarterly
 licence: Creative Commons Attribution 4.0 International
 coverage:
-  temporal:
-    start: "2020-04-20"
-    end: "2024-09-01"
   spatial: United Kingdom
 tags:
   - education

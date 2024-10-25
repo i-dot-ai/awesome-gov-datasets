@@ -9,13 +9,10 @@ subtopics:
   - Tenders
   - Contracts
 format: JSON
-last_updated: "2024-09-24"
+is_active: true
 update_frequency: Daily
 licence: Open Government Licence v3.0
 coverage:
-  temporal:
-    start: "2011-01-01"
-    end: "2024-09-24"
   spatial: United Kingdom
 tags:
   - procurement

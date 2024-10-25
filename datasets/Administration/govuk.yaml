@@ -13,13 +13,10 @@ subtopics:
   - Impact Assessments
   - Policy Papers
 format: HTML
-last_updated:
+is_active: true
 update_frequency: Daily
 licence: Open Government Licence v3.0
 coverage:
-  temporal:
-    start: "2012-10-17"
-    end: "2024-09-24"
   spatial: United Kingdom
 tags:
   - government
