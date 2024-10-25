@@ -61,7 +61,7 @@ def generate_dataset_entry(dataset, file_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate README for UK Government Datasets")
-    parser.add_argument("--output", default="README.md", help="Output file name")
+    parser.add_argument("--output", default="README_template.md", help="Output file name")
     args = parser.parse_args()
 
     topics = {}
