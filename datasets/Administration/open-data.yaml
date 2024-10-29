@@ -1,0 +1,20 @@
+name: GOV.UK Open Data
+description: Open data sets published by public sector organisations in the UK.
+source_url: https://www.data.gov.uk/
+open_data: true
+made_by_ukgov: true
+topic: Government Open Data
+subtopics:
+  - Open Data Sets
+  - Government Info
+  - Combined Resource
+format: Searchable Data Catalogue
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - government
+  - open data
+  - public sector
+  - data catalogues

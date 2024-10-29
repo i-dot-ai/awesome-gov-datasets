@@ -1,0 +1,20 @@
+name: GOV.UK Statistical Data Sets
+description: Statistical data sets published by public sector organisations in the UK.
+source_url: https://www.gov.uk/government/statistical-data-sets
+open_data: true
+made_by_ukgov: true
+topic: Government Statistical Data
+subtopics:
+  - Statistical Data Sets
+  - Government Info
+  - Combined Resource
+format: Searchable Data Catalogue
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - government
+  - statistical data
+  - public sector
+  - data catalogues
