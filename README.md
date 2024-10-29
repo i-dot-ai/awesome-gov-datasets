@@ -92,6 +92,52 @@ __Key__:
 
   </details>
 
+- __<a href='https://www.data.gov.uk/' target='_blank'>GOV.UK Open Data</a>__ 🌐 🏛️
+  Open data sets published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Administration/open-data.yaml)**
+
+  **Topic:** Government Open Data
+
+  **Subtopics:** `Open Data Sets`, `Government Info`, `Combined Resource`
+
+  **Source URL:** <a href='https://www.data.gov.uk/' target='_blank'>https://www.data.gov.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>GOV.UK Statistical Data Sets</a>__ 🌐 🏛️
+  Statistical data sets published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Administration/statistical-datasets.yaml)**
+
+  **Topic:** Government Statistical Data
+
+  **Subtopics:** `Statistical Data Sets`, `Government Info`, `Combined Resource`
+
+  **Source URL:** <a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>https://www.gov.uk/government/statistical-data-sets</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
 - __<a href='https://www.gov.uk/contracts-finder' target='_blank'>Government Procurement Data</a>__ 🌐 🏛️
   Data on government procurement activities, including tenders and contracts.
   <details>
