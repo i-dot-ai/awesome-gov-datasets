@@ -4,15 +4,15 @@ Thank you for your interest in contributing to the Awesome UK Government Dataset
 
 ## Adding a New Dataset
 
-1. Create a new YAML file in the appropriate topic folder (or create a new folder if needed).
-2. Name the file using the dataset name in lowercase, replacing spaces with underscores (e.g., `population_estimates.yaml`).
-3. Follow the YAML specification in `dataset-spec.yaml`.
-4. Run the validation script to ensure your YAML file is correct:
-   ```
-   python validate_yaml.py
-   ```
-5. Commit and push your changes.
-6. The GitHub Action will automatically update the README with your new dataset.
+1. Install the necessary dependencies: `make setup`
+2. Create a new YAML file in the appropriate `datasets/` topic folder (or create a new folder if needed).
+3. Name the file using the dataset name in lowercase, replacing spaces with underscores (e.g., `population_estimates.yaml`).
+4. Follow the YAML specification in `dataset-spec.yaml`.
+5. Run the validation script to ensure your YAML file is correct: `make validate`
+6. Run the script to build a test version of the README: `make readme`
+7. Commit and push your changes to your branch.
+8. Open a pull request to merge your changes into the main branch.
+8. The GitHub Action will automatically update the README with your new dataset when your pull request is merged.
 
 ## Development Setup and Running Tests
 

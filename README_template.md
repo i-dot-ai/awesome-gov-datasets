@@ -15,9 +15,11 @@ To add a new dataset:
 3. Commit and push your changes.
 4. When merged to main, the GitHub Action will automatically update the README with your new dataset.
 
+More details on contributing can be found in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 ## Licence
 
-This project is licenced under the MIT Licence - see the [LICENSE](LICENSE) file for details.
+This project is licenced under the Open Government Licence v3.0. For more information, see the [LICENCE](LICENCE) file.
 
 ## Acknowledgments
 
