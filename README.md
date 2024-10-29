@@ -28,10 +28,10 @@ This project is licenced under the MIT Licence - see the [LICENSE](LICENSE) file
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
 ## Table of Contents
 
-- [Administration](#administration)
 - [Business](#business)
 - [Education](#education)
 - [Geospatial](#geospatial)
+- [Government](#government)
 - [Law](#law)
 - [Parliament](#parliament)
 - [Planning](#planning)
@@ -42,124 +42,6 @@ __Key__:
 - 🔐 Closed Data
 - 🏛️ UK Government Dataset
 - 🏢 External Dataset
-
-
-## Administration
-
-- __<a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>GOV.UK API Catalogue</a>__ 🌐 🏛️
-  APIs published by public sector organisations in the UK.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Administration/api-catalogue.yaml)**
-
-  **Topic:** Government APIs
-
-  **Subtopics:** `API Catalogue`, `Government Info`, `Combined Resource`
-
-  **Source URL:** <a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>https://www.api.gov.uk/#uk-public-sector-apis</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
-
-  </details>
-
-- __<a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>GOV.UK Content</a>__ 🌐 🏛️
-  Official content from the GOV.UK website, including guidance and policy documents.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Administration/govuk.yaml)**
-
-  **Topic:** Government
-
-  **Subtopics:** `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
-
-  **Source URL:** <a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>https://content-api.publishing.service.gov.uk/#gov-uk-content-api</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
-
-  </details>
-
-- __<a href='https://www.data.gov.uk/' target='_blank'>GOV.UK Open Data</a>__ 🌐 🏛️
-  Open data sets published by public sector organisations in the UK.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Administration/open-data.yaml)**
-
-  **Topic:** Government Open Data
-
-  **Subtopics:** `Open Data Sets`, `Government Info`, `Combined Resource`
-
-  **Source URL:** <a href='https://www.data.gov.uk/' target='_blank'>https://www.data.gov.uk/</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
-
-  </details>
-
-- __<a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>GOV.UK Statistical Data Sets</a>__ 🌐 🏛️
-  Statistical data sets published by public sector organisations in the UK.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Administration/statistical-datasets.yaml)**
-
-  **Topic:** Government Statistical Data
-
-  **Subtopics:** `Statistical Data Sets`, `Government Info`, `Combined Resource`
-
-  **Source URL:** <a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>https://www.gov.uk/government/statistical-data-sets</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
-
-  </details>
-
-- __<a href='https://www.gov.uk/contracts-finder' target='_blank'>Government Procurement Data</a>__ 🌐 🏛️
-  Data on government procurement activities, including tenders and contracts.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Administration/procurement.yaml)**
-
-  **Topic:** Government
-
-  **Subtopics:** `Public Procurement`, `Tenders`, `Contracts`
-
-  **Source URL:** <a href='https://www.gov.uk/contracts-finder' target='_blank'>https://www.gov.uk/contracts-finder</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
-
-  </details>
 
 
 ## Business
@@ -236,6 +118,124 @@ __Key__:
   **Active:** ✅
 
   **Licence:** Open Governmet Licence
+
+  </details>
+
+
+## Government
+
+- __<a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>GOV.UK API Catalogue</a>__ 🌐 🏛️
+  APIs published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/api-catalogue.yaml)**
+
+  **Topic:** Government APIs
+
+  **Subtopics:** `API Catalogue`, `Government Info`, `Combined Resource`
+
+  **Source URL:** <a href='https://www.api.gov.uk/#uk-public-sector-apis' target='_blank'>https://www.api.gov.uk/#uk-public-sector-apis</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>GOV.UK Content</a>__ 🌐 🏛️
+  Official content from the GOV.UK website, including guidance and policy documents.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/govuk.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Speeches`, `Authored Articles`, `Consultation Outcomes`, `Corporate Reports`, `FOI Releases`, `Impact Assessments`, `Policy Papers`
+
+  **Source URL:** <a href='https://content-api.publishing.service.gov.uk/#gov-uk-content-api' target='_blank'>https://content-api.publishing.service.gov.uk/#gov-uk-content-api</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://www.data.gov.uk/' target='_blank'>GOV.UK Open Data</a>__ 🌐 🏛️
+  Open data sets published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/open-data.yaml)**
+
+  **Topic:** Government Open Data
+
+  **Subtopics:** `Open Data Sets`, `Government Info`, `Combined Resource`
+
+  **Source URL:** <a href='https://www.data.gov.uk/' target='_blank'>https://www.data.gov.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>GOV.UK Statistical Data Sets</a>__ 🌐 🏛️
+  Statistical data sets published by public sector organisations in the UK.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/statistical-datasets.yaml)**
+
+  **Topic:** Government Statistical Data
+
+  **Subtopics:** `Statistical Data Sets`, `Government Info`, `Combined Resource`
+
+  **Source URL:** <a href='https://www.gov.uk/government/statistical-data-sets' target='_blank'>https://www.gov.uk/government/statistical-data-sets</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://www.gov.uk/contracts-finder' target='_blank'>Government Procurement Data</a>__ 🌐 🏛️
+  Data on government procurement activities, including tenders and contracts.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/procurement.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Public Procurement`, `Tenders`, `Contracts`
+
+  **Source URL:** <a href='https://www.gov.uk/contracts-finder' target='_blank'>https://www.gov.uk/contracts-finder</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
