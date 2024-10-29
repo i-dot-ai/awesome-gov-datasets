@@ -10,7 +10,7 @@ A curated list of awesome datasets published by or relevant to the UK government
 
 To add a new dataset:
 
-1. Create a new YAML file in the appropriate topic folder (or create a new folder if needed).
+1. Create a new YAML file in the appropriate `datasets/` topic folder (or create a new folder if needed).
 2. Follow the YAML specification in `dataset-spec.yaml`.
 3. Commit and push your changes.
 4. When merged to main, the GitHub Action will automatically update the README with your new dataset.
