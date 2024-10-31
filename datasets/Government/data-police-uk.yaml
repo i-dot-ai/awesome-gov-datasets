@@ -1,0 +1,20 @@
+name: Police Open Crime Data (data.police.uk)
+description: Open street-level crime, outcome, and stop and search data for England, Wales and Northern Ireland.
+source_url: https://data.police.uk/
+open_data: true
+made_by_ukgov: true
+topic: Government
+subtopics:
+  - Police
+  - Crime
+  - Geospatial Data
+format: HTML
+is_active: true
+update_frequency: Monthly
+licence: Open Government Licence v3.0
+coverage:
+  spatial: England Wales and Northern Ireland
+tags:
+  - government
+  - policing
+  - crime
