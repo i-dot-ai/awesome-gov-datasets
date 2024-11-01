@@ -241,6 +241,29 @@ __Key__:
 
   </details>
 
+- __<a href='https://data.police.uk/' target='_blank'>Police Open Crime Data (data.police.uk)</a>__ 🌐 🏛️
+  Open street-level crime, outcome, and stop and search data for England, Wales and Northern Ireland.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/data-police-uk.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Police`, `Crime`, `Geospatial Data`
+
+  **Source URL:** <a href='https://data.police.uk/' target='_blank'>https://data.police.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
 
 ## Law
 
