@@ -1,0 +1,22 @@
+name: Official Census and Labour Market Statistics
+description: Statistics related to population, society and the labour market at national, regional and local levels, including data from current and previous censuses.
+source_url: https://www.nomisweb.co.uk/
+open_data: true
+made_by_ukgov: true
+topic: Official Census and Labour Market Statistics
+subtopics:
+  - Open Data Sets
+  - Government Info
+  - Census Data
+  - Labour Market Data
+format: Searchable Data Catalogue, API, Excel, CSV, JSON, XML
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - government
+  - open data
+  - public sector
+  - census
+  - labour market
