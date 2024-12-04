@@ -8,7 +8,7 @@ subtopics:
   - Open Data Sets
   - Government Info
   - Census Data
-  - Labour Market Data
+  - Economy
 format: Searchable Data Catalogue, API, Excel, CSV, JSON, XML
 is_active: true
 licence: Open Government Licence v3.0
@@ -20,3 +20,4 @@ tags:
   - public sector
   - census
   - labour market
+  - economy
