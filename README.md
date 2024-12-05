@@ -30,7 +30,7 @@ This project is licenced under the Open Government Licence v3.0. For more inform
 <!-- AUTO-GENERATED-CONTENT:START (Do not remove this line) -->
 ## Table of Contents
 
-- [Business](#business)
+- [Economy](#economy)
 - [Education](#education)
 - [Geospatial](#geospatial)
 - [Government](#government)
@@ -46,20 +46,43 @@ __Key__:
 - 🏢 External Dataset
 
 
-## Business
+## Economy
 
 - __<a href='https://developer.company-information.service.gov.uk/overview' target='_blank'>Companies House Data</a>__ 🌐 🏛️
   Registry information on UK companies, including formation, directors, and financials.
   <details>
     <summary>More info</summary>
 
-  **[Metadata File](datasets/Business/companies-house.yaml)**
+  **[Metadata File](datasets/Economy/companies-house.yaml)**
 
   **Topic:** Business
 
   **Subtopics:** `Company Registration`, `Corporate Governance`, `Financial Reporting`
 
   **Source URL:** <a href='https://developer.company-information.service.gov.uk/overview' target='_blank'>https://developer.company-information.service.gov.uk/overview</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+- __<a href='https://www.nomisweb.co.uk/' target='_blank'>Official Census and Labour Market Statistics</a>__ 🌐 🏛️
+  Statistics related to population, society and the labour market at national, regional and local levels, including data from current and previous censuses.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Economy/nomis.yaml)**
+
+  **Topic:** Official Census and Labour Market Statistics
+
+  **Subtopics:** `Open Data Sets`, `Government Info`, `Census Data`, `Economy`
+
+  **Source URL:** <a href='https://www.nomisweb.co.uk/' target='_blank'>https://www.nomisweb.co.uk/</a>
 
   **Open Data:** ✅
 
@@ -100,12 +123,12 @@ __Key__:
 
 ## Geospatial
 
-- __<a href='https://osdatahub.os.uk/' target='_blank'>Ordanance Survey Data Hub</a>__ 🌐 🏛️
+- __<a href='https://osdatahub.os.uk/' target='_blank'>Ordnance Survey Data Hub</a>__ 🌐 🏛️
   Great Britain’s Geospatial Data platform.
   <details>
     <summary>More info</summary>
 
-  **[Metadata File](datasets/Geospatial/ordanance-survey.yaml)**
+  **[Metadata File](datasets/Geospatial/ordnance-survey.yaml)**
 
   **Topic:** Geospatial
 
