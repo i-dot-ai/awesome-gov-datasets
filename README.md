@@ -19,7 +19,7 @@ More details on contributing can be found in the [CONTRIBUTING.md](CONTRIBUTING.
 
 ## Licence
 
-This project is licenced under the Open Government Licence v3.0. For more information, see the [LICENCE](LICENCE) file.
+This project is licenced under the MIT licence. For more information, see the [LICENCE](LICENCE) file.
 
 ## Acknowledgments
 
