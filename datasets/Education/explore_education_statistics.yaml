@@ -1,0 +1,28 @@
+name: Explore Education Statistics and Data
+description: Statistics and datasets owned by Department for Education, including School Census, Further and Higher education data and school workforce data. Includes a table builder to export custom tables.
+source_url: https://explore-education-statistics.service.gov.uk/
+open_data: true
+made_by_ukgov: true
+topic: Education
+subtopics:
+  - Open Data Sets
+  - Teachers
+  - Primary education
+  - Secondary education
+  - Further education
+  - Higher education
+  - Schools
+  - Labour markets and skills
+  - Children's social care
+format: Searchable Data Catalogue, ODS, CSV
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: England (some UK)
+tags:
+  - government
+  - open data
+  - public sector
+  - education
+  - labour market
+  - social care
