@@ -6,9 +6,9 @@ made_by_ukgov: true
 topic: Official Census and Labour Market Statistics
 subtopics:
   - Open Data Sets
-  - Government Info
   - Census Data
   - Economy
+  - Population
 format: Searchable Data Catalogue, API, Excel, CSV, JSON, XML
 is_active: true
 licence: Open Government Licence v3.0
@@ -16,8 +16,8 @@ coverage:
   spatial: United Kingdom
 tags:
   - government
-  - open data
   - public sector
+  - statistics
   - census
   - labour market
   - economy
