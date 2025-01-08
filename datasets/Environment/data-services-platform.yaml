@@ -1,0 +1,30 @@
+name: Defra Data Services Platform
+description: Data catalogue containing various datasets and API's on the natural environment, our food and farming industry and aspects of the rural economy
+source_url: https://environment.data.gov.uk/
+open_data: true
+made_by_ukgov: true
+topic: environment
+subtopics:
+  - Flood
+  - Biodiversity
+  - Water Quality
+  - Ecology
+format: Searchable Data Catalogue
+is_active: true
+licence: Open Government Licence v3.0
+coverage:
+  spatial: United Kingdom
+tags:
+  - APIs
+  - data catalogues
+  - enviroment
+required:
+- name
+- description
+- source_url
+- open_data
+- made_by_ukgov
+- topic
+- format
+- is_active
+- licence
