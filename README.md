@@ -80,7 +80,7 @@ __Key__:
 
   **Topic:** Official Census and Labour Market Statistics
 
-  **Subtopics:** `Open Data Sets`, `Government Info`, `Census Data`, `Economy`
+  **Subtopics:** `Open Data Sets`, `Census Data`, `Economy`, `Population`
 
   **Source URL:** <a href='https://www.nomisweb.co.uk/' target='_blank'>https://www.nomisweb.co.uk/</a>
 
