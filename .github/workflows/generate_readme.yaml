@@ -1,5 +1,4 @@
 name: Generate README
-
 on:
   pull_request:
     types: [opened, synchronize]
@@ -35,19 +34,21 @@ jobs:
       - name: Generate README
         run: python scripts/generate_readme.py
 
-      - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "docs: update README with new datasets"
-        title: "Docs: update README with new datasets from PR #${{ github.event.pull_request.number }}"
-        body: |
-          This PR automatically updates the README.md with the latest dataset additions.
-          
-          This update was triggered by the merge of PR #${{ github.event.pull_request.number }}.
-        branch: update-readme
-        base: main
-        delete-branch: true
-        labels: |
-          documentation
-          automated-pr
+      - name: Create or Update Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: update README for PR #${{ github.event.pull_request.number }}"
+          title: "docs: update README for PR #${{ github.event.pull_request.number }}"
+          body: |
+            This PR automatically updates the README.md based on dataset changes in #${{ github.event.pull_request.number }}.
+            
+            Original PR: ${{ github.event.pull_request.html_url }}
+            
+            This PR will be automatically updated if the original PR changes.
+          branch: readme-update-pr-${{ github.event.pull_request.number }}
+          base: ${{ github.event.pull_request.base.ref }}
+          delete-branch: true
+          labels: |
+            documentation
+            automated-pr
