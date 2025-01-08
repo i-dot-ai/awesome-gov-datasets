@@ -13,10 +13,12 @@ jobs:
   generate-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}  # Checkout the PR branch
+          ref: ${{ github.event.pull_request.head.ref }}  # Checkout the PR branch
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v4
