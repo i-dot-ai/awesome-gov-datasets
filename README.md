@@ -97,6 +97,29 @@ __Key__:
 
 ## Education
 
+- __<a href='https://explore-education-statistics.service.gov.uk/' target='_blank'>Explore Education Statistics and Data</a>__ 🌐 🏛️
+  Statistics and datasets owned by Department for Education, including School Census, Further and Higher education data and school workforce data. Includes a table builder to export custom tables.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Education/explore_education_statistics.yaml)**
+
+  **Topic:** Education
+
+  **Subtopics:** `Open Data Sets`, `Teachers`, `Primary education`, `Secondary education`, `Further education`, `Higher education`, `Schools`, `Labour markets and skills`, `Children's social care`
+
+  **Source URL:** <a href='https://explore-education-statistics.service.gov.uk/' target='_blank'>https://explore-education-statistics.service.gov.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
 - __<a href='https://open-api.thenational.academy/' target='_blank'>Oak Lesson Plans</a>__ 🌐 🏛️
   Educational resources and lesson plans from Oak National Academy.
   <details>
