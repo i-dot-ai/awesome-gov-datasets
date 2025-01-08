@@ -1,7 +1,8 @@
 name: Generate README
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches:
+      - main
     paths:
       - 'datasets/**/*.yml'
       - 'datasets/**/*.yaml'
@@ -15,8 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}  # Checkout the PR branch
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
@@ -50,22 +49,22 @@ jobs:
       - name: Stage README changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
 
       - name: Create or Update Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "docs: update README for PR #${{ github.event.pull_request.number }}"
-          title: "docs: update README for PR #${{ github.event.pull_request.number }}"
+          commit-message: "docs: update README after merge to main"
+          title: "docs: update README after merge to main"
           body: |
-            This PR automatically updates the README.md based on dataset changes in #${{ github.event.pull_request.number }}.
+            This PR automatically updates the README.md based on merged dataset changes.
             
-            Original PR: ${{ github.event.pull_request.html_url }}
-            
-            This PR will be automatically updated if the original PR changes.
-          branch: readme-update-pr-${{ github.event.pull_request.number }}
-          base: ${{ github.event.pull_request.base.ref }}
+            Changes were detected in the main branch that affect the README content.
+          branch: readme-update-after-merge
+          base: main
           delete-branch: true
           labels: |
             documentation
