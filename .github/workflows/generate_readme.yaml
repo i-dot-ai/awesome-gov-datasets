@@ -34,6 +34,22 @@ jobs:
       - name: Generate README
         run: python scripts/generate_readme.py
 
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in README.md"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stage README changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git add README.md
+
       - name: Create or Update Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
