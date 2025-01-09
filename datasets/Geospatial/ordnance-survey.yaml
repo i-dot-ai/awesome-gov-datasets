@@ -1,7 +1,7 @@
 name: Ordnance Survey Data Hub
 description: Great Britain’s Geospatial Data platform.
 source_url: https://osdatahub.os.uk/
-open_data: true
+open_data: false
 made_by_ukgov: true
 topic: Geospatial
 subtopics:
@@ -15,7 +15,7 @@ subtopics:
 format: API/ESRI Shapefile/MapInfo/+more
 is_active: true
 update_frequency: Varied
-licence: Open Governmet Licence
+licence: Various
 coverage:
   spatial: United Kingdom
 tags:

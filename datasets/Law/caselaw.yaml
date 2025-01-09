@@ -11,7 +11,7 @@ subtopics:
 format: XML
 is_active: true
 update_frequency: Weekly
-licence: Open Government Licence v3.0
+licence: Open Justice Licence
 coverage:
   temporal:
     start: "1865-01-01"
