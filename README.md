@@ -32,6 +32,7 @@ This project is licenced under the MIT licence. For more information, see the [L
 
 - [Economy](#economy)
 - [Education](#education)
+- [Environment](#environment)
 - [Geospatial](#geospatial)
 - [Government](#government)
 - [Law](#law)
@@ -140,6 +141,32 @@ __Key__:
   **Active:** ✅
 
   **Licence:** Creative Commons Attribution 4.0 International
+
+  </details>
+
+
+## Environment
+
+- __<a href='https://environment.data.gov.uk/' target='_blank'>Defra Data Services Platform</a>__ 🌐 🏛️
+  Data catalogue containing various datasets and API's on the natural environment, the food and farming industry and aspects of the rural economy
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Environment/data-services-platform.yaml)**
+
+  **Topic:** environment
+
+  **Subtopics:** `Flood`, `Biodiversity`, `Water Quality`, `Ecology`
+
+  **Source URL:** <a href='https://environment.data.gov.uk/' target='_blank'>https://environment.data.gov.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
