@@ -1,5 +1,5 @@
 name: Defra Data Services Platform
-description: Data catalogue containing various datasets and API's on the natural environment, our food and farming industry and aspects of the rural economy
+description: Data catalogue containing various datasets and API's on the natural environment, the food and farming industry and aspects of the rural economy
 source_url: https://environment.data.gov.uk/
 open_data: true
 made_by_ukgov: true
@@ -17,14 +17,4 @@ coverage:
 tags:
   - APIs
   - data catalogues
-  - enviroment
-required:
-- name
-- description
-- source_url
-- open_data
-- made_by_ukgov
-- topic
-- format
-- is_active
-- licence
+  - environment
