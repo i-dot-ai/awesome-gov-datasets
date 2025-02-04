@@ -1,4 +1,4 @@
-name: Planning Data
+name: Census Maps
 description: Geospatial maps of census data for England and Wales in March 2021.
 source_url: https://www.ons.gov.uk/census/maps/
 open_data: true
