@@ -1,0 +1,20 @@
+name: Census Maps
+description: Geospatial maps of census data for England and Wales in March 2021.
+source_url: https://www.ons.gov.uk/census/maps/
+open_data: true
+made_by_ukgov: true
+topic: Census
+subtopics:
+  - Census
+  - Geospatial
+  - Maps
+  - Population Statistics
+format: CSV
+is_active: true
+update_frequency: 10 years
+licence: Open Government Licence v3.0
+coverage:
+  spatial: England and Wales
+tags:
+  - census
+  - geopspatial

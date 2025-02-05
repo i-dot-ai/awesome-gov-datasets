@@ -1,0 +1,20 @@
+name: NHS England Statistics
+description: Statistics on a range of health and care subjects in England.
+source_url: https://www.england.nhs.uk/statistics/statistical-work-areas/
+open_data: true
+made_by_ukgov: true
+topic: Health
+subtopics:
+  - Health
+  - Care
+  - Statistics
+format: XLSX
+is_active: true
+update_frequency: Monthly
+licence: Open Government Licence v3.0
+coverage:
+  spatial: England
+tags:
+  - planning
+  - zoning
+  - urban development
