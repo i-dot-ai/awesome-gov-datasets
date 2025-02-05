@@ -35,9 +35,9 @@ This project is licenced under the MIT licence. For more information, see the [L
 - [Environment](#environment)
 - [Geospatial](#geospatial)
 - [Government](#government)
+- [Health](#health)
 - [Law](#law)
 - [Parliament](#parliament)
-- [Planning](#planning)
 
 __Key__:
 
@@ -173,6 +173,29 @@ __Key__:
 
 ## Geospatial
 
+- __<a href='https://www.ons.gov.uk/census/maps/' target='_blank'>Census Maps</a>__ 🌐 🏛️
+  Geospatial maps of census data for England and Wales in March 2021.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Geospatial/census-maps.yaml)**
+
+  **Topic:** Census
+
+  **Subtopics:** `Census`, `Geospatial`, `Maps`, `Population Statistics`
+
+  **Source URL:** <a href='https://www.ons.gov.uk/census/maps/' target='_blank'>https://www.ons.gov.uk/census/maps/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
 - __<a href='https://osdatahub.os.uk/' target='_blank'>Ordnance Survey Data Hub</a>__ 🌐 🏛️
   Great Britain’s Geospatial Data platform.
   <details>
@@ -192,7 +215,30 @@ __Key__:
 
   **Active:** ✅
 
-  **Licence:** Open Governmet Licence
+  **Licence:** Various
+
+  </details>
+
+- __<a href='https://www.planning.data.gov.uk/' target='_blank'>Planning Data</a>__ 🌐 🏛️
+  A data platform to help create services to inform planning and housing decisions in England.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Geospatial/planning.yaml)**
+
+  **Topic:** Urban Planning
+
+  **Subtopics:** `Zoning`, `Development Plans`, `Land Use`
+
+  **Source URL:** <a href='https://www.planning.data.gov.uk/' target='_blank'>https://www.planning.data.gov.uk/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
 
   </details>
 
@@ -338,6 +384,32 @@ __Key__:
   </details>
 
 
+## Health
+
+- __<a href='https://www.england.nhs.uk/statistics/statistical-work-areas/' target='_blank'>NHS England Statistics</a>__ 🌐 🏛️
+  Statistics on a range of health and care subjects in England.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Health/nhs-england-statistics.yaml)**
+
+  **Topic:** Health
+
+  **Subtopics:** `Health`, `Care`, `Statistics`
+
+  **Source URL:** <a href='https://www.england.nhs.uk/statistics/statistical-work-areas/' target='_blank'>https://www.england.nhs.uk/statistics/statistical-work-areas/</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ✅
+
+  **Active:** ✅
+
+  **Licence:** Open Government Licence v3.0
+
+  </details>
+
+
 ## Law
 
 - __<a href='https://nationalarchives.github.io/ds-find-caselaw-docs/public' target='_blank'>UK Caselaw</a>__ 🌐 🏛️
@@ -359,7 +431,7 @@ __Key__:
 
   **Active:** ✅
 
-  **Licence:** Open Government Licence v3.0
+  **Licence:** Open Justice Licence
 
   </details>
 
@@ -432,32 +504,6 @@ __Key__:
   **Active:** ✅
 
   **Licence:** Open Parliament Licence v3.0
-
-  </details>
-
-
-## Planning
-
-- __<a href='https://www.planning.data.gov.uk/' target='_blank'>Planning Data</a>__ 🌐 🏛️
-  A platform to help you create services to inform planning and housing decisions in England.
-  <details>
-    <summary>More info</summary>
-
-  **[Metadata File](datasets/Planning/planning.yaml)**
-
-  **Topic:** Urban Planning
-
-  **Subtopics:** `Zoning`, `Development Plans`, `Land Use`
-
-  **Source URL:** <a href='https://www.planning.data.gov.uk/' target='_blank'>https://www.planning.data.gov.uk/</a>
-
-  **Open Data:** ✅
-
-  **Made by UK Gov:** ✅
-
-  **Active:** ✅
-
-  **Licence:** Open Government Licence v3.0
 
   </details>
 
