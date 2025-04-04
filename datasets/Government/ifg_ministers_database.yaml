@@ -1,0 +1,18 @@
+name: IfG Ministers Database
+description: Information about all UK government ministers since 1979 – who served as a minister, in which roles, between which dates.
+source_url: https://www.instituteforgovernment.org.uk/ministers-database
+open_data: true
+made_by_ukgov: false
+topic: Government
+subtopics:
+  - Ministers
+  - Ministerial appointments
+  - Government departments
+format: HTML, CSV, SQLite
+is_active: true
+licence: Creative Commons Attribution 4.0 International
+coverage:
+  temporal:
+    start: "1979-05-04"
+    end: "current"
+  spatial: United Kingdom
