@@ -360,6 +360,29 @@ __Key__:
 
   </details>
 
+- __<a href='https://www.instituteforgovernment.org.uk/ministers-database' target='_blank'>IfG Ministers Database</a>__ 🌐 🏢
+  Information about all UK government ministers since 1979 – who served as a minister, in which roles, between which dates.
+  <details>
+    <summary>More info</summary>
+
+  **[Metadata File](datasets/Government/ifg_ministers_database.yaml)**
+
+  **Topic:** Government
+
+  **Subtopics:** `Ministers`, `Ministerial appointments`, `Government departments`
+
+  **Source URL:** <a href='https://www.instituteforgovernment.org.uk/ministers-database' target='_blank'>https://www.instituteforgovernment.org.uk/ministers-database</a>
+
+  **Open Data:** ✅
+
+  **Made by UK Gov:** ❌
+
+  **Active:** ✅
+
+  **Licence:** Creative Commons Attribution 4.0 International
+
+  </details>
+
 - __<a href='https://data.police.uk/' target='_blank'>Police Open Crime Data (data.police.uk)</a>__ 🌐 🏛️
   Open street-level crime, outcome, and stop and search data for England, Wales and Northern Ireland.
   <details>
